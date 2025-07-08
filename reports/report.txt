@@ -1,0 +1,76 @@
+Random Forest Classifier
+Accuracy: 0.75
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.82      0.82        11
+         1.0       0.60      0.60      0.60         5
+
+    accuracy                           0.75        16
+   macro avg       0.71      0.71      0.71        16
+weighted avg       0.75      0.75      0.75        16
+
+Logistic Regression
+Accuracy: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.67      0.55      0.60        11
+         1.0       0.29      0.40      0.33         5
+
+    accuracy                           0.50        16
+   macro avg       0.48      0.47      0.47        16
+weighted avg       0.55      0.50      0.52        16
+
+Decision Tree Classifier
+Accuracy: 0.75
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.82      0.82        11
+         1.0       0.60      0.60      0.60         5
+
+    accuracy                           0.75        16
+   macro avg       0.71      0.71      0.71        16
+weighted avg       0.75      0.75      0.75        16
+
+Feature Importance (Random Forest):
+time: 0.3105
+ejection_fraction: 0.1232
+serum_sodium: 0.1179
+age: 0.1085
+serum_creatinine: 0.1056
+platelets: 0.1020
+creatinine_phosphokinase: 0.0688
+smoking: 0.0165
+anaemia: 0.0160
+sex: 0.0137
+high_blood_pressure: 0.0094
+diabetes: 0.0078
+
+Feature Importance (Decision Tree):
+time: 0.4732
+serum_creatinine: 0.2395
+platelets: 0.1133
+creatinine_phosphokinase: 0.0571
+serum_sodium: 0.0379
+age: 0.0284
+anaemia: 0.0253
+diabetes: 0.0253
+ejection_fraction: 0.0000
+high_blood_pressure: 0.0000
+sex: 0.0000
+smoking: 0.0000
+
+Best Parameters (Random Forest Classifier):
+{'max_depth': None, 'max_features': 'sqrt', 'min_samples_leaf': 2, 'min_samples_split': 10, 'n_estimators': 100}
+Best Cross-Validated Accuracy: 0.8551
+
+Random Forest Classifier (on Test Set):
+Test Accuracy: 0.7500
+              precision    recall  f1-score   support
+
+         0.0       0.82      0.82      0.82        11
+         1.0       0.60      0.60      0.60         5
+
+    accuracy                           0.75        16
+   macro avg       0.71      0.71      0.71        16
+weighted avg       0.75      0.75      0.75        16
+

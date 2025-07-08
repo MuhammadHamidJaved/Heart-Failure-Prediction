@@ -1,0 +1,55 @@
+Random Forest Classifier
+Accuracy: 0.5625
+              precision    recall  f1-score   support
+
+         0.0       0.75      0.55      0.63        11
+         1.0       0.38      0.60      0.46         5
+
+    accuracy                           0.56        16
+   macro avg       0.56      0.57      0.55        16
+weighted avg       0.63      0.56      0.58        16
+
+Logistic Regression
+Accuracy: 0.5
+              precision    recall  f1-score   support
+
+         0.0       0.64      0.64      0.64        11
+         1.0       0.20      0.20      0.20         5
+
+    accuracy                           0.50        16
+   macro avg       0.42      0.42      0.42        16
+weighted avg       0.50      0.50      0.50        16
+
+Decision Tree Classifier
+Accuracy: 0.4375
+              precision    recall  f1-score   support
+
+         0.0       0.62      0.45      0.53        11
+         1.0       0.25      0.40      0.31         5
+
+    accuracy                           0.44        16
+   macro avg       0.44      0.43      0.42        16
+weighted avg       0.51      0.44      0.46        16
+
+Feature Importance (Random Forest):
+serum_sodium: 0.1951
+ejection_fraction: 0.1917
+age: 0.1878
+serum_creatinine: 0.1768
+creatinine_phosphokinase: 0.1577
+anaemia: 0.0257
+high_blood_pressure: 0.0228
+diabetes: 0.0213
+smoking: 0.0212
+
+Feature Importance (Decision Tree):
+age: 0.3235
+creatinine_phosphokinase: 0.2155
+serum_creatinine: 0.1943
+ejection_fraction: 0.1654
+serum_sodium: 0.1013
+anaemia: 0.0000
+diabetes: 0.0000
+high_blood_pressure: 0.0000
+smoking: 0.0000
+
